@@ -1,3 +1,6 @@
+body{
+    font-family: 'Redressed', cursive;
+}
 .name{
     color: #ff0000af;
 }
@@ -17,16 +20,12 @@
     font-size: 40px;
     text-align: center;
     color: rgba(0, 0, 128, 0.767);
-    
- 
 }
 .half-width{
     float: left;
     width: 40%;
     margin-left: 2%;
     padding-left: 5%;
-
-
 }
 
 .half-width img{
@@ -71,25 +70,33 @@
     font-weight: 700;
 }
 .forth-area{
-    background-size: 100%y;
-    margin: 5%;
-    padding:5%;
+    background-size: 100%;
+    margin: 15% 15%;
+    
+    padding-bottom: 5%;
     border-radius: 20px;
     background-image: url(images/Group_33094_1.png);
     background-position: center;
     background-repeat: no-repeat;
 }
-text{
-    background-position: top;
+.text{
+    margin: 5%;
+    
+    background-position: center;
 }
 .work{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
     color: whitesmoke;
+    text-align: start;
+    margin-top: 3%;
+    padding: 3%;
 }
 .forth-button{
     float: right;
     background-size: 100%;
+    margin-bottom: 20%;
+    padding:2%;
 }
 .right{
     text-align: center;
